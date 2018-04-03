@@ -1,4 +1,4 @@
-<!--@extends('layout')
+@extends('layout')
 
 @section('content')
 
@@ -20,7 +20,7 @@
 	</thead>
 
 	<tbody>
-		<!variables que viene del controller customers-
+		<!--variables que viene del controller customers-->
 		@foreach ($customersList as $customer)
 		<tr>
 			<td>{{ $customer->Name}}</td>
@@ -50,4 +50,4 @@
 	});
 </script>
 
-@endsection-->
+@endsection
