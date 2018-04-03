@@ -2,7 +2,7 @@
 
 @section('content')
 
-<h2 class="customerBanner btn-success">Create a customer</h2>
+<h2 class="customerBanner btn-success">Create a new customer</h2>
 
 <div class="container">
 <div class="row">
